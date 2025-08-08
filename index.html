@@ -286,10 +286,10 @@
                           المقاس
                           <i class="bi bi-arrow-down-up sort-indicator"></i>
                         </th>
-                        <th onclick="sortTable(2)">
+                        <!-- <th onclick="sortTable(2)">
                           المسلسل
                           <i class="bi bi-arrow-down-up sort-indicator"></i>
-                        </th>
+                        </th> -->
                         <th onclick="sortTable(3)">
                           السعر
                           <i class="bi bi-arrow-down-up sort-indicator"></i>
@@ -489,7 +489,7 @@
           row.innerHTML = `
                     <td>${product.name}</td>
                     <td>${product.size}</td>
-                    <td>${product.serial}</td>
+                    <!-- <td>${product.serial}</td> -->
                     <td>${product.price.toFixed(2)} ج.م</td>
                     <td>
                         <button class="btn btn-add-cart btn-sm text-white" onclick="addToCart('${
